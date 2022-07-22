@@ -23,7 +23,7 @@
 	<artifactId>maven-war-plugin</artifactId>
 	<version>2.4</version>
 	<configuration>
-	<warSourceDirectory>WebContent</warSourceDirectory>
+	<warSourceDirectory>ProjectWeb</warSourceDirectory>  <!-- <warSourceDirectory></warSourceDirectory> -->
 	<failOnMissingWebXml>false</failOnMissingWebXml>
 	</configuration>
 	</plugin>
