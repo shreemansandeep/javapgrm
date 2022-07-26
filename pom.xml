@@ -20,10 +20,11 @@
   <build>
     <plugins>
     <plugin>
-	<artifactId>maven-war-plugin</artifactId>
-	<version>2.4</version>
+	<groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.1</version>
 	<configuration>
-	<warSourceDirectory>ProjectWeb</warSourceDirectory>  <!-- <warSourceDirectory></warSourceDirectory> -->
+	<!-- <warSourceDirectory>ProjectWeb</warSourceDirectory> --> <!-- <warSourceDirectory></warSourceDirectory> -->
 	<failOnMissingWebXml>false</failOnMissingWebXml>
 	</configuration>
 	</plugin>
